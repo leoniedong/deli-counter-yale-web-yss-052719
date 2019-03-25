@@ -10,7 +10,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each_with_index do |name, index|
-      name.prepend "#{index+1}."
+      name.prepend "#{index+1}. "
     end
     array = katz_deli.join(" ")
     puts "The line is currently: #{array}"
